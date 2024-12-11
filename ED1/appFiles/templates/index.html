@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto ED1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <div id="containerForms">
+        <form id="formsConfig">
+            <label for="cpfInput" id="cpfLabel">CPF :</label>
+            <input type="text" id="cpfInput">
+            <input type="button" id="searchButton" value="&#x1F50D" onclick="buscarCliente()">
+        </form>
+        <input type="button" value="Cadastrar" id="clientReg" onclick="cadastrarCliente()">
+        <input type="button" value="Remover" id="removeClient" onclick="removerCliente()">
+        <div id="resultado" style="margin-top: 20px; color: whitesmoke;"></div>
+    </div>
+    
+    
+    <div id="notFoundMessage" class="hidden">Cliente não encontrado!</div>
+
+
+    <div id="registerContainer" class="hidden">
+        <form id="registerForm">
+            <label for="registerCpf" id="cpfLabel">CPF:</label>
+            <input type="text" id="registerCpf">
+            
+            <label for="registerName" id="cpfLabel">Nome:</label>
+            <input type="text" id="registerName">
+            
+            <label for="registerBirthDate" id="cpfLabel">DN:</label>
+            <input type="text" id="registerBirthDate">
+            
+            <label for="registerEmail" id="cpfLabel">Email:</label>
+            <input type="text" id="registerEmail">
+            
+            <label for="registerPhone" id="cpfLabel">Phone:</label>
+            <input type="text" id="registerPhone">
+        </form>
+        <input type="button" value="Voltar" id="backButton" onclick="voltarContainerPrincipal()">
+        <input type="button" value="Concluir Cadastro" id="concluirCadastro" onclick="concluirCadastro()">
+    </div>
+</body>
+</html>

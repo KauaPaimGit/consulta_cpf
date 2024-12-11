@@ -1,0 +1,260 @@
+    #containerForms { 
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+            230deg,
+            hsl(279deg 86% 14%) 0%,
+            hsl(278deg 96% 12%) 8%,
+            hsl(278deg 100% 11%) 20%,
+            hsl(277deg 100% 10%) 36%,
+            hsl(278deg 100% 9%) 52%,
+            hsl(259deg 100% 19%) 66%,
+            hsl(267deg 100% 22%) 77%,
+            hsl(272deg 100% 26%) 86%,
+            hsl(276deg 100% 29%) 94%,
+            hsl(279deg 100% 33%) 100%
+        );
+        border-radius: 6.5px;
+        border: solid 2px rgb(81, 0, 90);
+    }
+
+    #searchButton {
+        margin-top: 2px;
+        background-color: rgba(21, 19, 19, 0.888);
+        width: 30px;
+        height: 30px;
+        border: solid 2px rgb(81, 0, 90);
+        border-radius: 6.6px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        margin-left: 7px;
+    }
+
+    #searchButton:hover {
+        background-color: rgb(81, 0, 90);
+        border-color: rgba(255, 255, 255, 0.8);
+        transform: scale(1.1);
+        color: whitesmoke;
+    }
+
+    #cpfLabel {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+
+    #formsConfig {
+        margin-left: 15px;
+        padding-top: 5px;
+    }
+
+    #clientReg {
+        background-color: rgba(21, 19, 19, 0.888);
+        width: 126px;
+        height: 30px;
+        border: solid 2px rgb(81, 0, 90);
+        border-radius: 6.6px;
+        margin-left: 15px;
+        margin-top: 5px;
+        color: whitesmoke;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #clientReg:hover {
+        background-color: rgb(81, 0, 90);
+        border-color: rgba(255, 255, 255, 0.8);
+        transform: translateY(-2px);
+        color: whitesmoke;
+        box-shadow: 0 4px 10px rgba(81, 0, 90, 0.8);
+    }
+
+    #removeClient {
+        background-color: rgba(21, 19, 19, 0.888);
+        width: 126px;
+        height: 30px;
+        border: solid 2px rgb(81, 0, 90);
+        border-radius: 6.6px;
+        margin-left: 15px;
+        margin-top: 5px;
+        color: whitesmoke;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #removeClient:hover {
+        background-color: rgb(81, 0, 90);
+        border-color: rgba(255, 255, 255, 0.8);
+        transform: translateY(-2px);
+        color: whitesmoke;
+        box-shadow: 0 4px 10px rgba(81, 0, 90, 0.8);
+    }
+
+    #cpfInput {
+        border-radius: 6.6px;
+        border: solid 2px rgb(81, 0, 90);
+        transition: all 0.3s ease-in-out;
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        margin-left: 5px;
+    }
+
+    #cpfInput:focus {
+        outline: none;
+        border-color: rgb(255, 255, 255);
+        box-shadow: 0 0 8px rgb(81, 0, 90);
+        background-color: rgba(81, 0, 90, 0.2);
+        color: white;
+    }
+
+    #cpfSuccess {
+        margin-top: 15px;
+        color: green;
+        font-weight: bold;
+    }
+    
+    #notFoundMessage {
+        color: red; 
+        font-weight: bold; 
+        text-align: center; 
+        position: absolute; 
+        top: 70%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        z-index: 10; 
+    }
+    
+    .hidden {
+        display: none; /* Esconde o elemento */
+    }
+    
+    #dataContainer {
+        width: 300px;
+        height: 160px;
+        background-image: linear-gradient(
+            230deg,
+            hsl(279deg 86% 14%) 0%,
+            hsl(278deg 96% 12%) 8%,
+            hsl(278deg 100% 11%) 20%,
+            hsl(277deg 100% 10%) 36%,
+            hsl(278deg 100% 9%) 52%,
+            hsl(259deg 100% 19%) 66%,
+            hsl(267deg 100% 22%) 77%,
+            hsl(272deg 100% 26%) 86%,
+            hsl(276deg 100% 29%) 94%,
+            hsl(279deg 100% 33%) 100%
+        );
+        border-radius: 6.5px;
+        border: solid 2px rgb(81, 0, 90);
+        margin-top: 50px;
+        text-align: center;
+    }
+
+#registerContainer {
+    background-image: linear-gradient(
+            230deg,
+            hsl(279deg 86% 14%) 0%,
+            hsl(278deg 96% 12%) 8%,
+            hsl(278deg 100% 11%) 20%,
+            hsl(277deg 100% 10%) 36%,
+            hsl(278deg 100% 9%) 52%,
+            hsl(259deg 100% 19%) 66%,
+            hsl(267deg 100% 22%) 77%,
+            hsl(272deg 100% 26%) 86%,
+            hsl(276deg 100% 29%) 94%,
+            hsl(279deg 100% 33%) 100%
+        );
+        border-radius: 6.5px;
+        border: solid 2px rgb(81, 0, 90);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+    }
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+    width: 100%; 
+}
+#registerPhone{
+    color: blueviolet;
+
+}
+#registerForm input[type="text"] {
+    color: blueviolet;
+    width: 100%; 
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+#backButton,
+#concluirCadastro {
+    width: calc(50% - 10px);
+    margin: 10px 5px;
+}
+
+@media (max-width: 480px) {
+    #registerContainer {
+        padding: 10px;
+    }
+
+    #registerForm input[type="text"] {
+        font-size: 14px;
+    }
+
+    #backButton,
+    #concluirCadastro {
+        width: 100%; 
+        margin: 5px 0;
+    }
+}
+
+    .hidden {
+        display: none !important;
+    }
+
+    #backButton,
+    #concluirCadastro {
+        background-color: rgba(21, 19, 19, 0.888);
+        width: 126px;
+        height: 30px;
+        border: solid 2px rgb(81, 0, 90);
+        border-radius: 6.6px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        color: whitesmoke;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #backButton:hover,
+    #concluirCadastro:hover {
+        background-color: rgb(81, 0, 90);
+        border-color: rgba(255, 255, 255, 0.8);
+        transform: translateY(-2px);
+        color: whitesmoke;
+        box-shadow: 0 4px 10px rgba(81, 0, 90, 0.8);
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(24, 23, 23);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
